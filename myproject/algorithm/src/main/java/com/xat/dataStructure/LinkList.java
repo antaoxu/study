@@ -29,6 +29,8 @@ public class LinkList {
             System.out.println(linkedList.pollLast());
         }
 
+
+
     }
 
 
