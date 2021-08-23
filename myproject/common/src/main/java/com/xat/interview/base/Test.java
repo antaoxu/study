@@ -4,6 +4,8 @@ import java.io.File;
 
 
 public class Test {
+    private static int num;
+
     public static void main(String[] args) {
         String path = "CHECKFILE/20210216/UACC_307034_consumer_20210216.txt";
         String okPath = path.substring(0, path.lastIndexOf(".")) + ".ok";
@@ -17,6 +19,13 @@ public class Test {
 
         System.out.println(okPath);
         System.out.println(fileName);
+
+        switch (num){
+            case 1:
+                System.out.println("qwqw");
+            case 2:
+                System.out.println("1243");
+        }
     }
 
 }
