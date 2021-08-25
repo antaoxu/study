@@ -1,6 +1,9 @@
 package com.xat.dao;
 
 import com.xat.pojo.User;
+import org.apache.ibatis.annotations.Insert;
+import org.apache.ibatis.annotations.Param;
+import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
 
@@ -12,6 +15,8 @@ public interface UserMapper {
      * 获取用户列表
      * @return
      */
+
+    @Select("select * from user")
     List<User> getUserList();
 
     /**
@@ -19,7 +24,8 @@ public interface UserMapper {
      * @param id
      * @return
      */
-    User getUserById(String id);
+    @Select("select * from user where id=#{uid}")
+    User getUserById(@Param("uid") String id);
 
     /**
      * 通过ID删除用户
@@ -33,6 +39,7 @@ public interface UserMapper {
      * @param user
      * @return
      */
+    @Insert("insert into user (id,name,age) values (#{id},#{name},#{age})")
     int addUser(User user);
 
     /**
