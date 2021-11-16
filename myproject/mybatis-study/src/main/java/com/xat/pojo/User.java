@@ -9,10 +9,12 @@ public class User {
     private int age;
 
     public User() {
+        this.id = "123";
+        this.name = "hshdh";
     }
 
     public User(String id, String name, int age) {
-        this.id = id;
+        this.id = "ECIF001";
         this.name = name;
         this.age = age;
     }

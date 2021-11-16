@@ -16,7 +16,7 @@ public interface UserMapper {
      * @return
      */
 
-    @Select("select * from user")
+    //@Select("select * from user")
     List<User> getUserList();
 
     /**
@@ -24,7 +24,7 @@ public interface UserMapper {
      * @param id
      * @return
      */
-    @Select("select * from user where id=#{uid}")
+    //@Select("select * from user where id=#{uid}")
     User getUserById(@Param("uid") String id);
 
     /**
@@ -39,7 +39,7 @@ public interface UserMapper {
      * @param user
      * @return
      */
-    @Insert("insert into user (id,name,age) values (#{id},#{name},#{age})")
+    //@Insert("insert into user (id,name,age) values (#{id},#{name},#{age})")
     int addUser(User user);
 
     /**

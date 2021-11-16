@@ -68,7 +68,7 @@ public class UserDaoTest {
         try{
             //方式一(推荐)
             UserMapper mapper = sqlSession.getMapper(UserMapper.class);
-            int num = mapper.addUser(new User("4","wangwu",45));
+            int num = mapper.addUser(new User("10","张武",45));
             System.out.println(num);
             //提交事务
             sqlSession.commit();

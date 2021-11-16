@@ -20,7 +20,8 @@ public class TiHuanKongGeLcof{
     public static void main(String[] args) {
         Solution solution = new TiHuanKongGeLcof().new Solution();
         String str = "123 abc GHF";
-        solution.replaceSpace(str);
+        //solution.replaceSpace(str);
+        System.out.println(str.replaceAll(" ", "%20"));
     }
 
 //leetcode submit region begin(Prohibit modification and deletion)
