@@ -3,6 +3,7 @@ package com.xat.pojo;
 /**
  * @author 淡漠
  */
+
 public class User {
     private String id;
     private String name;
@@ -14,7 +15,7 @@ public class User {
     }
 
     public User(String id, String name, int age) {
-        this.id = "ECIF001";
+        this.id = id;
         this.name = name;
         this.age = age;
     }

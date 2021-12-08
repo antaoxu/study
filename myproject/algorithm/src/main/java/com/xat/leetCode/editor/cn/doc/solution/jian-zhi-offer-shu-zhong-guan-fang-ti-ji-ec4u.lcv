@@ -1,0 +1,65 @@
+### 解题思路
+
+- 遍历链表，遍历的顺序是从头到尾，可输出的顺序却是从尾到头；也就是说第一个遍历到的节点最后一个输出，而最后一个遍历到的节点第一个输出。这个就是典型的后进先出，我们可以用栈来实现这种顺序，每经过一个节点的时候，把该节点放到一个栈中，当遍历完整个链表后，再从栈顶开始依次输出节点的值
+
+### 代码
+
+* javascript
+
+```javascript
+/**
+ * @param {ListNode} head
+ * @return {number[]}
+ */
+var reversePrint = function(head) {
+  let nodes = [];
+  while (head != null) {
+    nodes.push(head.val);
+    head = head.next;
+  }
+  // 可以不用下面这一整段，直接  return nodes.reverse();
+  let result = [];
+  let temp = nodes.pop();
+  while (temp != null) {
+    result.push(temp);
+    temp = nodes.pop();
+  }
+  return result;
+};
+```
+
+### 解题思路
+
+- 既然想到了用栈，而递归本质上就是一个栈结构，要实现反过来输出链表，每访问到一个节点的时候，先递归输出它后面的节点，再输出该节点自身，这样链表的输出结果就反过来了
+
+### 代码
+
+* javascript
+
+```javascript
+/**
+ * @param {ListNode} head
+ * @return {number[]}
+ */
+var reversePrint = function(head, arr = []) {  
+  // 利用函数递归栈的特性
+  if (head != null) {
+    if (head.next != null) {
+      reversePrint(head.next, arr);
+    }
+    arr.push(head.val);
+  }
+  return arr;
+};
+```
+
+上述代码简化后的实现如下：
+
+* javascript
+
+```javascript
+var reversePrint = function(head, arr = []) {
+  return head == null ? [] : reversePrint(head.next).concat(head.val);
+};
+```
+

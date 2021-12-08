@@ -3,12 +3,48 @@
   <component name="LeetcodeEditor">
     <option name="projectConfig">
       <map>
+        <entry key="$PROJECT_DIR$/../../myproject/algorithm/src/main/java/com/xat/leetcode/editor/cn/TiHuanKongGeLcof.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/algorithm/src/main/java/com/xat/leetCode/editor/cn/doc/content/TiHuanKongGeLcof.md" />
+              <option name="path" value="$PROJECT_DIR$/algorithm/src/main/java/com/xat/leetCode/editor/cn/TiHuanKongGeLcof.java" />
+              <option name="questionId" value="100280" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../myproject/algorithm/src/main/java/com/xat/leetcode/editor/cn/Xoh6Oh.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../myproject/algorithm/src/main/java/com/xat/leetcode/editor/cn/doc/content/Xoh6Oh.md" />
+              <option name="path" value="$PROJECT_DIR$/../../myproject/algorithm/src/main/java/com/xat/leetcode/editor/cn/Xoh6Oh.java" />
+              <option name="questionId" value="1000228" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/algorithm/src/main/java/com/xat/leetCode/editor/cn/CongWeiDaoTouDaYinLianBiaoLcof.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/algorithm/src/main/java/com/xat/leetCode/editor/cn/doc/content/CongWeiDaoTouDaYinLianBiaoLcof.md" />
+              <option name="path" value="$PROJECT_DIR$/algorithm/src/main/java/com/xat/leetCode/editor/cn/CongWeiDaoTouDaYinLianBiaoLcof.java" />
+              <option name="questionId" value="100282" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/algorithm/src/main/java/com/xat/leetCode/editor/cn/ShuZuZhongZhongFuDeShuZiLcof.java">
           <value>
             <LeetcodeEditor>
               <option name="contentPath" value="$PROJECT_DIR$/algorithm/src/main/java/com/xat/leetCode/editor/cn/doc/content/ShuZuZhongZhongFuDeShuZiLcof.md" />
               <option name="path" value="$PROJECT_DIR$/algorithm/src/main/java/com/xat/leetCode/editor/cn/ShuZuZhongZhongFuDeShuZiLcof.java" />
               <option name="questionId" value="100275" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/algorithm/src/main/java/com/xat/leetCode/editor/cn/TiHuanKongGeLcof.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/algorithm/src/main/java/com/xat/leetCode/editor/cn/doc/content/TiHuanKongGeLcof.md" />
+              <option name="path" value="$PROJECT_DIR$/algorithm/src/main/java/com/xat/leetCode/editor/cn/TiHuanKongGeLcof.java" />
+              <option name="questionId" value="100280" />
             </LeetcodeEditor>
           </value>
         </entry>
