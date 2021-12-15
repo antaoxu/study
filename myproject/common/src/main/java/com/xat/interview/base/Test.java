@@ -17,8 +17,7 @@ public class Test {
         File file = new File(fileName);
 
 
-        System.out.println(okPath);
-        System.out.println(fileName);
+
 
         switch (num){
             case 1:
