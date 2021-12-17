@@ -8,7 +8,7 @@ import java.util.List;
  */
 public class InverseList {
 
-    public static class Node {
+     static class Node {
         public int value;
         public Node next;
 
@@ -17,7 +17,7 @@ public class InverseList {
         }
     }
 
-    public static class DoubleNode {
+     static class DoubleNode {
         public int value;
         public DoubleNode last;
         public DoubleNode next;

@@ -38,6 +38,13 @@ public class DoubleList {
         size--;
         DoubleNode head = new DoubleNode(Math.random()*(value + 1));
         DoubleNode pre = head;
+        while (size >0){
+            DoubleNode cur = new DoubleNode(Math.random()*(value + 1));
+            pre.next = cur;
+            cur.last = pre;
+            pre = cur;
+            size--;
+        }
         return head;
 
     }
