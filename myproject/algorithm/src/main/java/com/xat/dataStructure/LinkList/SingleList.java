@@ -12,6 +12,42 @@ public class SingleList {
             this.value = data;
         }
 
+        public Node reverseNode(Node head){
+            Node pre = null;
+            Node next = null;
+            while (head != null){
+                next = head.next;
+                head.next = pre;
+                pre = head;
+                head = next;
+            }
+            return pre;
+        }
+
+        public Node detectCycle(Node head){
+            Node fast = head;
+            Node slow = head;
+            while (true){
+                if (fast == null || fast.next == null) return null;
+                fast = fast.next.next;
+                slow = slow.next;
+                if (slow == fast) break;
+            }
+            fast = head;
+            while (slow != fast){
+                fast = fast.next;
+                slow = slow.next;
+            }
+            return fast;
+        }
+
+
+
+
+
+
+
+
         public  Node reverseSingleList(Node head){
             Node pre = null;
             Node next = null;
