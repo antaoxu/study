@@ -9,6 +9,7 @@ package com.xat.interview.designPattern.singleton;
 public enum Singleton06 {
     INSTANCE;
 
+
     public static Singleton06 getInstance(){
         return INSTANCE;
     }
