@@ -16,10 +16,23 @@ package com.xat.leetCode.editor.cn;
 // 0 <= 链表长度 <= 10000
 // Related Topics 栈 递归 链表 双指针 👍 197 👎 0
 
+import java.util.Arrays;
+
+/**
+ * @author xuantao
+ */
 public class CongWeiDaoTouDaYinLianBiaoLcof{
     public static void main(String[] args) {
         Solution solution = new CongWeiDaoTouDaYinLianBiaoLcof().new Solution();
-
+        ListNode node1 = new ListNode(1);
+        ListNode node2 = new ListNode(2);
+        ListNode node3 = new ListNode(3);
+        node1.next = node2;
+        node2.next = node3;
+        node3.next = null;
+        for (int i : solution.reversePrint(node1)) {
+            System.out.println(i);
+        }
     }
 
 //leetcode submit region begin(Prohibit modification and deletion)
@@ -31,21 +44,35 @@ public class CongWeiDaoTouDaYinLianBiaoLcof{
  *     ListNode(int x) { val = x; }
  * }
  */
-public class ListNode<T> {
-    T value;
+public static class ListNode {
+    int value;
     ListNode next;
 
-    public ListNode(T value) {
+    public ListNode(int value) {
         this.value = value;
     }
 }
 
 class Solution {
     public int[] reversePrint(ListNode head) {
-        int[] arr = {1,2};
-        return arr;
+        ListNode current = head;
+        int size = 0;
+        while (current != null){
+            current = current.next;
+            size++;
+        }
+        int[] result = new int[size];
+        current = head;
+        while (current != null && size > 0){
+            result[--size] = current.value;
+            current = current.next;
+        }
+        return result;
     }
+
+
 }
 //leetcode submit region end(Prohibit modification and deletion)
+
 
 }

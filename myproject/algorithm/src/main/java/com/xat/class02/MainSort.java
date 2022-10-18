@@ -33,7 +33,7 @@ public class MainSort {
     }
 
     /**
-     * 插入排序：从第二个数开始，依次与它前面的数对比，如果比前一个数小，则交换；
+     * 插入排序：从第二个数开始，依次与它前面的数对比，如果当前数比前一个数小，则交换；
      *
      * @param arr
      */
@@ -50,7 +50,6 @@ public class MainSort {
 
     /**
      * 选择排序
-     *
      * @param arr
      */
     public static void selectSort(int[] arr) {
@@ -66,6 +65,10 @@ public class MainSort {
         }
     }
 
+    /**
+     * 冒泡排序
+     * @param arr
+     */
     public static void bubbbleSort(int[] arr) {
         if (arr == null || arr.length < 2) {
             return;
