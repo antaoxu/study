@@ -1,4 +1,4 @@
-package com.xat.noviceclass;
+package com.xat.noviceclass.class01;
 
 /**
  * 阶乘

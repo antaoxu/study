@@ -1,4 +1,4 @@
-package com.xat.noviceclass;
+package com.xat.noviceclass.class01;
 
 /**
  * 选择排序
@@ -14,7 +14,7 @@ public class SelectionSort {
     }
 
     private static void selectSort(int[] arr) {
-        if (arr == null || arr.length < 0) {
+        if (arr == null || arr.length < 2) {
             return;
         }
         // 0 - N-1

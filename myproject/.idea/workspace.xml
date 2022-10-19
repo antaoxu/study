@@ -4,94 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="807dfc33-995a-457f-b271-abbf57faa42f" name="Default Changelist" comment="几种简单排序">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_75.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_core_3_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_ecs_4_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_kms_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_ram_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_sts_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_oss_aliyun_sdk_oss_3_10_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jdom_jdom2_2_0_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/com/xat/dataStructure/tree/TreeBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/com/xat/leetCode/editor/cn/ErWeiShuZuZhongDeChaZhaoLcof.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/com/xat/leetCode/editor/cn/WGki4K.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/com/xat/leetCode/editor/cn/doc/content/ErWeiShuZuZhongDeChaZhaoLcof.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/com/xat/leetCode/editor/cn/doc/content/WGki4K.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/com/xat/noviceclass/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/com/xat/noviceclass/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-study/JsonFile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-study/src/main/java/com/xat/pojo/CheckOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-study/src/main/java/com/xat/pojo/CheckThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-study/src/main/java/com/xat/pojo/CheckTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-study/src/main/java/com/xat/pojo/FileNameDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-study/src/main/java/com/xat/pojo/Intercepter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-study/src/main/java/com/xat/pojo/MyRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-study/target/classes/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-study/target/classes/com/xat/dao/UserMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-study/target/classes/com/xat/pojo/EsbRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-study/target/classes/com/xat/pojo/EsbRequestHead.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-study/target/classes/com/xat/pojo/MyTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-study/target/classes/com/xat/pojo/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-study/target/classes/com/xat/pojo/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-study/target/classes/com/xat/utils/MybatisUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-study/target/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-study/target/classes/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-study/target/test-classes/com/xat/dao/UserDaoTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/com/xat/class02/MainSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/java/com/xat/class02/MainSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/com/xat/dataStructure/LinkList/DoubleList.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/java/com/xat/dataStructure/list/DoubleList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/com/xat/dataStructure/LinkList/SingleList.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/java/com/xat/dataStructure/list/SingleList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/com/xat/leetCode/editor/cn/CongWeiDaoTouDaYinLianBiaoLcof.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/java/com/xat/leetCode/editor/cn/CongWeiDaoTouDaYinLianBiaoLcof.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/com/xat/leetCode/editor/cn/doc/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/java/com/xat/leetCode/editor/cn/doc/all.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/com/xat/leetCode/editor/cn/doc/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/java/com/xat/leetCode/editor/cn/doc/translation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/com/xat/class01/EvenTimesOddTimes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/com/xat/class01/ExchangeTwoNums.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/com/xat/class01/KtimesAndMtimes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/com/xat/class01/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/com/xat/dataStructure/LinkList$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/com/xat/leetCode/IntInverse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/target/classes/com/xat/leetCode/RemoveDuplicates.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common/common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/com/xat/interview/base/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/com/xat/interview/base/ArrayTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/com/xat/interview/base/DateTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/com/xat/interview/base/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/com/xat/interview/base/StringToInt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/com/xat/interview/base/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/com/xat/interview/proxy/AmericanCaptainMovie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/com/xat/interview/proxy/Movie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/com/xat/interview/proxy/ProxyTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/com/xat/interview/proxy/StaticProxyMovie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/com/xat/servlet/MyServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/com/xat/utils/DateUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-study/mybatis-study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-study/mybatis-study.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-study/src/main/java/com/xat/pojo/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-study/src/main/java/com/xat/pojo/MyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-study/src/main/java/com/xat/pojo/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-study/src/main/java/com/xat/pojo/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myproject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/myproject.iml" afterDir="false" />
+    <list default="true" id="807dfc33-995a-457f-b271-abbf57faa42f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/com/xat/noviceclass/class01/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/com/xat/noviceclass/class01/InsertSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/com/xat/interview/huawei/Main7.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/java/com/xat/interview/huawei/Main7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/com/xat/noviceclass/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/java/com/xat/noviceclass/class01/Factorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/main/java/com/xat/noviceclass/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/main/java/com/xat/noviceclass/class01/SelectionSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,13 +85,13 @@
       <recent name="com.xat.interview.designPattern.strategy.test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SelectionSort">
-    <configuration name="CongWeiDaoTouDaYinLianBiaoLcof" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xat.leetCode.editor.cn.CongWeiDaoTouDaYinLianBiaoLcof" />
+  <component name="RunManager" selected="Application.InsertSort">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xat.noviceclass.class01.BubbleSort" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xat.leetCode.editor.cn.*" />
+          <option name="PATTERN" value="com.xat.noviceclass.class01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,11 +100,11 @@
       </method>
     </configuration>
     <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xat.noviceclass.Factorial" />
+      <option name="MAIN_CLASS_NAME" value="com.xat.noviceclass.class01.Factorial" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xat.noviceclass.*" />
+          <option name="PATTERN" value="com.xat.noviceclass.class01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xat.pojo.MyTest" />
-      <module name="mybatis-study" />
+    <configuration name="InsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xat.noviceclass.class01.InsertSort" />
+      <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xat.pojo.*" />
+          <option name="PATTERN" value="com.xat.noviceclass.class01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -207,11 +126,11 @@
       </method>
     </configuration>
     <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xat.noviceclass.SelectionSort" />
+      <option name="MAIN_CLASS_NAME" value="com.xat.noviceclass.class01.SelectionSort" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xat.noviceclass.*" />
+          <option name="PATTERN" value="com.xat.noviceclass.class01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -245,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InsertSort" />
+        <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.Factorial" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.CongWeiDaoTouDaYinLianBiaoLcof" />
-        <item itemvalue="Application.MyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -283,7 +202,7 @@
       <workItem from="1663640818836" duration="27292000" />
       <workItem from="1665199609725" duration="29000" />
       <workItem from="1665199667741" duration="211000" />
-      <workItem from="1666076513678" duration="4282000" />
+      <workItem from="1666076513678" duration="12359000" />
     </task>
     <task id="LOCAL-00001" summary="设计模式-单例模式">
       <created>1633946907075</created>
@@ -313,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639735222389</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="几种简单排序">
+      <created>1666089187214</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666089187214</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,15 +260,15 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="设计模式-单例模式" />
-    <MESSAGE value="几种简单排序" />
     <MESSAGE value="单链表和双链表" />
-    <option name="LAST_COMMIT_MESSAGE" value="单链表和双链表" />
+    <MESSAGE value="几种简单排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="几种简单排序" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/algorithm/src/main/java/com/xat/noviceclass/SelectionSort.java</url>
+          <url>file://$PROJECT_DIR$/algorithm/src/main/java/com/xat/noviceclass/class01/SelectionSort.java</url>
           <line>23</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
