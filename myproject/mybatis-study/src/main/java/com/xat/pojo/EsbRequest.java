@@ -1,6 +1,10 @@
 package com.xat.pojo;
 
+import lombok.Data;
+
+@Data
 public class EsbRequest<b> {
+
     private EsbRequestHead head;
     private b body;
 
@@ -10,10 +14,6 @@ public class EsbRequest<b> {
 
     public EsbRequestHead getHead() {
         return head;
-    }
-
-    public void setHead(EsbRequestHead head) {
-        this.head = head;
     }
 
     public b getBody() {

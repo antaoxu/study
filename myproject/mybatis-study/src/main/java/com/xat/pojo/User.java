@@ -1,9 +1,11 @@
 package com.xat.pojo;
 
+import lombok.Data;
+
 /**
  * @author 淡漠
  */
-
+@Data
 public class User {
     private String id;
     private String name;
