@@ -39,12 +39,9 @@ public class Test {
             "}";
 
     public static void main(String[] args) {
-        String s = "b";
-        String b = "sdfds";
-        if (s.length() == b.length()){
-            System.out.println("hahhah");
-        }
-        System.out.println(s.charAt(0) - 97);
+        int n = 789;
+        System.out.println(n%10);
+        System.out.println(n/10);
     }
 }
 
