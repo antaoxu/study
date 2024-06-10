@@ -51,6 +51,9 @@ class Solution {
     public boolean canConstruct(String ransomNote, String magazine) {
         //题目已经限定只有小写字母，所以本题目和字母异位词题目类似，
         //所以可采用一个hash数组来存放各个字母出现的次数
+        if (magazine.length() < ransomNote.length()){
+            return false;
+        }
         int[] perNumCount = new int[26];
         for(int i = 0; i < magazine.length(); i++){
             perNumCount[magazine.charAt(i) - 'a']++;
