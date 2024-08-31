@@ -1,30 +1,37 @@
 package com.xat.interview.base;
 
 import java.io.File;
+import java.util.ArrayList;
+import java.util.Iterator;
 
 
 public class Test {
-    private static int num;
+
+
 
     public static void main(String[] args) {
-        String path = "CHECKFILE/20210216/UACC_307034_consumer_20210216.txt";
-        String okPath = path.substring(0, path.lastIndexOf(".")) + ".ok";
-        int index = okPath.lastIndexOf("/");
-
-        String fileName = path.substring(index + 1);
-        int dex = fileName.indexOf("_");
-        String okFile = fileName.substring(dex + 1);
-        File file = new File(fileName);
-
-
-
-
-        switch (num){
-            case 1:
-                System.out.println("qwqw");
-            case 2:
-                System.out.println("1243");
+        ArrayList<String> list = new ArrayList<>(2);
+        list.add("A");
+        list.add("B");
+        list.ensureCapacity(4);
+        list.add("C");
+        list.add("D");
+        for (int i = 0; i < list.size(); i++) {
+            if (list.get(i).equals("B")) {
+                list.remove(i);
+            }
         }
+
+        Iterator<String> iterator = list.iterator();
+
+        /*while (iterator.hasNext()) {
+            String value = iterator.next();
+            System.out.println(value);
+            if (value.equals("B")) {
+                iterator.remove();
+                //list.remove(value);  // 直接修改了集合的结构
+            }
+        }*/
     }
 
 }

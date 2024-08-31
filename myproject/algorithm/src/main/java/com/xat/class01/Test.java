@@ -14,11 +14,16 @@ public class Test {
      * @return 验证结果
      */
     public static void main(String[] args) {
-        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        Date date = new Date();
-        System.out.println(format.format(date).toString());
+        int result = 0x0001;
+        System.out.println(result);
+        result = 15;
+        System.out.println(result);
 
 
+    }
+
+    public void printBinaryNum(int num){
+        //
     }
 
 

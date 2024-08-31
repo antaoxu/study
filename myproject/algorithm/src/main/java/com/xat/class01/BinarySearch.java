@@ -6,12 +6,12 @@ package com.xat.class01;
  */
 public class BinarySearch {
     public static void main(String[] args) {
-        int[] arr ={8,7,3,4,5,6,7,8,4,3,2,1,9};
-        int num = 2;
+        int[] arr ={1,2,3,7,9,13,56};
+        //int num = 2;
         //System.out.println(doesExist(arr, num));
         //System.out.println(leftIndex(arr,num));
         //System.out.println(rightIndex(arr,num));
-        System.out.println(localMinimum(arr));
+        System.out.println(doesExist(arr,1));
     }
     /**
      * 1.在一个有序数组int[] arr中，查找某一个数（num）是否存在
